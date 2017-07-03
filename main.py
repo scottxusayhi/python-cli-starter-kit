@@ -68,7 +68,7 @@ class Cmdline:
             'bar',
             ('kip', ['next', 'config']),
         ]
-        root_parser = argparse.ArgumentParser(description='K2 docker operation CLI')
+        root_parser = argparse.ArgumentParser(description='Sample CLI')
         root_parser.add_argument('-v', '--verbose', action='store_true', help='verbose')
         root_parser.add_argument('--debug', '-d', action='store_true', help='debug mode')
         args, others = root_parser.parse_known_args()
